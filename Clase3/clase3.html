@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clase 3</title>
+  <!-- <script src="clase2_temasfaltantes.js"></script> -->
+</head>
+<body>
+  <div class="elementoBase elemento1">Elemento 1</div>
+  <div class="elementoBase elemento2">Elemento 2</div>
+  <div class="elementoBase elemento3">Elemento 3</div>
+  <div class="elementoBase elemento4">Elemento 4</div>
+  <div id="elementoUnico" class="elementoBase elemento5">Elemento 5</div>
+  
+  <div>
+    <button onclick="guardarVariable('valor 1')">
+      LocalStorage Guardar Valor 1
+    </button>
+    <button onclick="guardarVariable('valor 2')">
+      LocalStorage Guardar Valor 2
+    </button>
+    <button onclick="leerVariableGuardada('valor 1')">
+      LocalStorage Leer Valor
+    </button>
+    <button onclick="eliminarVariableGuardada()">
+      LocalStorage Eliminar Valor
+    </button>
+    <button onclick="limpiarVariablesGuardadas()">
+      LocalStorage Limpiar Todo
+    </button>
+  </div>
+
+  <div>
+    <button onclick="guardarVariableSession('valor 1')">
+      SessionStorage Guardar Valor 1
+    </button>
+    <button onclick="guardarVariableSession('valor 2')">
+      SessionStorage Guardar Valor 2
+    </button>
+    <button onclick="leerVariableGuardadaSession()">
+      SessionStorage Leer Valor
+    </button>
+    <button onclick="eliminarVariableGuardadaSession('valor 1')">
+      SessionStorage Eliminar Valor
+    </button>
+    <button onclick="limpiarVariablesGuardadasSession()">
+      SessionStorage Limpiar Todo
+    </button>
+  </div>
+  <script src="clase3.js"></script>
+</body>
+</html>
