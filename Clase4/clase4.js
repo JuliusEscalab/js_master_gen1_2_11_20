@@ -73,6 +73,10 @@ arregloMascotas // ['Perro']
 
 // Splice para manipular arreglos
 
+var mascotas = ["Perros","Gatos","Canarios", "Peces"];
+mascotas.splice(2,1) // Eliminar "Canarios" de acuerdo a la posición 2 en el arreglo
+mascotas.splice(2,1, 'Canarios') // Añadir "Canarios" en la posición 2
+
 // Set
 var miObjeto = { nombre: 'Julio'};
 
