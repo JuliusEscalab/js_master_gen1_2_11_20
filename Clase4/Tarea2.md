@@ -1,7 +1,7 @@
 
 ## Tarea
 
-### Clase 2
+### Clase 4
 
 #### Crear un objeto, agregar como sus propiedades lo siguiente:
 
