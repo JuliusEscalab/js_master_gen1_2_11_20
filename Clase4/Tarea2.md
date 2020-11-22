@@ -12,7 +12,7 @@
 - Una propiedad de tipo **function** llamada `llamarAlerta`, que reciba 1 parámetro y que al ejecutarse levante una alerta en el browser con el mensaje entregado como parámetro
 ###
 - Una propiedad de tipo **function** llamada `esHttps`, que no reciba parámetros y que al ejecutarse:
-  - Esta función debe modificar otra propiedad del objeto llamada esSeguro, dependiendo si es `true o false`, si la url es https o no
+  - Esta función debe modificar otra propiedad del objeto llamada `esSegura`, dependiendo si es `true o false`, si la url actual es https o no
   - Esta función debe retornar `true o false` dependiendo si la url es https o no
 ###
 - Una propiedad de tipo **function** llamada `eliminarMascota`, que reciba el 1 parámetro como el tipo de la mascota a eliminar
