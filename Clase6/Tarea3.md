@@ -30,7 +30,8 @@ picture: string
 
 ### 
 - Una propiedad de tipo **function** llamada **vaciarLista**, que no recibirá parámetros
-  - La función deberá regresar la lista a null
+  - La función deberá ejecutar una `Promise`, que debe eliminar los datos de la propiedad `lista` luego de **3 segundos**, imprimiendo en consola **Lista eliminada!**
+  - La función deberá un mensaje: **Se eliminará la lista de forma asíncrona**
 
 ### (desafiante)
 - Una propiedad de tipo **function** llamada **verPorPropiedad**, que recibirá 2 parámetros, el primero es un **número** denominado `posición` y la segunda es un **string** llamada `propiedad`
