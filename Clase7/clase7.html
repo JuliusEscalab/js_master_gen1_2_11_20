@@ -5,8 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Clase 7</title>
   <script src="clase7.js"></script>
+  <script>
+    function drawHtml({id, name, picture, hobbies }){
+      const getTime = new Date().getTime();
+      document.getElementById('box').innerHTML = `
+        <div style="display: flex; flex-direction: column; align-items: center">
+          <div>${id}</div>
+          <div>${name}</div>
+          <image src="${picture}?${getTime}"
+          <div>
+            Hobbies: ${hobbies}
+          </div>
+        </div>
+      `
+    }
+
+    async function callApi(id){
+      const response = await fetch(`https://escalab-6b3e3.firebaseio.com/javascript/${id}.json`)
+      const parsedResponse = await response.json();
+      drawHtml(parsedResponse);
+    }
+  </script>
 </head>
 <body>
-  
+  <div id="box"></div>
 </body>
 </html>
