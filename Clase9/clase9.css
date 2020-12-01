@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#prototipo {
+  border: 2px solid indigo;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#singleton {
+  border: 2px solid green;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#factory {
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.buttonGreen { background-color: #4CAF50;}
+.buttonBlue { background-color: #008CBA;}
+.buttonRed { background-color: #f44336;}
+.buttonWhite { background-color: #e7e7e7;}
+.buttonGray { background-color: #555555;}
