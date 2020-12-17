@@ -1,0 +1,26 @@
+.card {
+  margin: 20px;
+  background-attachment: gray;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.data {
+  color: white;
+}
+
+.inputs {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.radiobutton {
+  display: flex;
+  flex-direction: column;
+}
